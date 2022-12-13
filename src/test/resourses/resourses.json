@@ -1,41 +1,13 @@
 {
-	"result": "10",
-	"error": "test_error_string",
+	"result": "int",
+	"error": "String",
 	"keywords": [{
-		"test_1": [{
-			"isDirectory": "false",
-			"name": "file1",
-			"filePath": "path1",
-			"size": "128"
-		}, {
-			"isDirectory": "false",
-			"name": "file2",
-			"filePath": "path2",
-			"size": "1024"
-		}]
-	}, {
-		"test_2": [{
-			"isDirectory": "true",
-			"name": "file3",
-			"filePath": "path3",
-			"size": "1024"
-		}, {
-			"isDirectory": "false",
-			"name": "file4",
-			"filePath": "path4",
-			"size": "1024"
-		}]
-	}, {
-		"test_3": [{
-			"isDirectory": "true",
-			"name": "file5",
-			"filePath": "path5",
-			"size": "2048"
-		}, {
-			"isDirectory": "false",
-			"name": "file6",
-			"filePath": "path6",
-			"size": "1024"
+		"String": [{
+			"isDirectory": "boolean",
+			"name": "String",
+			"filePath": "String",
+			"size": "long",
+			"file": "File"
 		}]
 	}]
 }
